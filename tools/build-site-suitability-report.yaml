@@ -1,0 +1,10 @@
+name: build-site-suitability-report
+description: Build a screening report with ranked candidates, constraints, limitations, and due diligence.
+input_schema:
+  type: object
+  additionalProperties: false
+  required: [payload]
+  properties:
+    payload:
+      type: object
+      additionalProperties: true

@@ -1,0 +1,13 @@
+name: validate-site-candidates
+description: Validate candidate site IDs and supplied suitability scores.
+input_schema:
+  type: object
+  additionalProperties: false
+  required: [candidates]
+  properties:
+    candidates:
+      type: array
+      minItems: 1
+      items:
+        type: object
+        additionalProperties: true

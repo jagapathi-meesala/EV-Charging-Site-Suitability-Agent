@@ -1,0 +1,38 @@
+{
+  "weights": {
+    "demand_score": 0.3,
+    "access_score": 0.2,
+    "grid_readiness_score": 0.2,
+    "cost_score": 0.15,
+    "constraint_score": 0.15
+  },
+  "candidates": [
+    {
+      "site_id": "SITE-A",
+      "demand_score": 88,
+      "access_score": 82,
+      "grid_readiness_score": 70,
+      "cost_score": 74,
+      "constraint_score": 85,
+      "notes": "Illustrative data only."
+    },
+    {
+      "site_id": "SITE-B",
+      "demand_score": 76,
+      "access_score": 90,
+      "grid_readiness_score": 86,
+      "cost_score": 65,
+      "constraint_score": 72,
+      "notes": "Illustrative data only."
+    },
+    {
+      "site_id": "SITE-C",
+      "demand_score": 69,
+      "access_score": 72,
+      "grid_readiness_score": 55,
+      "cost_score": 91,
+      "constraint_score": 32,
+      "notes": "Illustrative data only; constraint review required."
+    }
+  ]
+}

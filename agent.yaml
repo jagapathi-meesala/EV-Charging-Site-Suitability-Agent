@@ -1,0 +1,23 @@
+spec_version: "0.1.0"
+name: ev-charging-site-suitability-agent
+version: "1.0.0"
+description: Screens candidate EV charging sites using supplied demand, access, grid, cost, and constraint data, with transparent scoring and evidence gaps.
+author: jagapathi-meesala
+license: MIT
+skills:
+  - candidate-site-data-review
+  - suitability-scoring
+  - decision-reporting
+tools:
+  - validate-site-candidates
+  - score-charging-sites
+  - build-site-suitability-report
+runtime:
+  max_turns: 5
+  temperature: 0.2
+  timeout: 30
+tags:
+  - ev-charging
+  - site-selection
+  - geospatial-planning
+  - sustainability
